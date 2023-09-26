@@ -20,7 +20,8 @@ popup.click();
 WebElement search = driver.findElement(By.name("q"));
 search.sendKeys("Iphone");
 WebElement icon = driver.findElement(By.xpath("//button[@class=\"_2iLD__\"]"));
-icon.click();
+//icon.click();
+
 
 
 			
